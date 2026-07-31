@@ -14,8 +14,8 @@ class Settings(BaseSettings):
     def proxy_url(self) -> str | None:
         if self.proxy_host and self.proxy_port:
             if self.proxy_user and self.proxy_pass:
-                return f"socks5://{self.proxy_user}:{self.proxy_pass}@{self.proxy_host}:{self.proxy_port}"
-            return f"socks5://{self.proxy_host}:{self.proxy_port}"
+                return f"http://{self.proxy_user}:{self.proxy_pass}@{self.proxy_host}:{self.proxy_port}"
+            return f"http://{self.proxy_host}:{self.proxy_port}"
         return None
 
 
