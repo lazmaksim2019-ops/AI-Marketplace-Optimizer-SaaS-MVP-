@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ai-marketplace-optimizer-saas.onrender.com/">
+  <a href="https://frontend-delta-beryl-25.vercel.app/">
     <img src="https://img.shields.io/badge/🚀_Live_Demo-Open_App-4285F4?style=for-the-badge&logo=render&logoColor=white"/>
   </a>
   <img src="https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge"/>
